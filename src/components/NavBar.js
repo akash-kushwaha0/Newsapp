@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export class NavBar extends Component {
 
     render() {
-        return (
+        return ( 
             <div>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
