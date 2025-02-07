@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Threads - Modern Social Media App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-stack modern social media application inspired by the [original project](https://github.com/adrianhajdin/threads) by Adrian Hajdin. This project features user authentication, real-time posts, and an intuitive UI.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User authentication (OAuth, JWT)
+- Post creation, editing, and deletion
+- Real-time interactions
+- Responsive design with modern UI/UX
+- Built using React, Next.js, and Tailwind CSS
+- Backend powered by MongoDB and Node.js
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: NextAuth.js
+- **Deployment**: Vercel, MongoDB Atlas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To clone and run this project locally, use the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+git clone https://github.com/akash-kushwaha0/threads.git
+cd threads
+npm install
+npm run dev
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Create a `.env` file and configure environment variables.
+4. Start the development server with `npm run dev`.
+5. Open `http://localhost:3000` in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+├── src
+│   ├── components    # Reusable UI components
+│   ├── context       # Context API for state management
+│   ├── pages         # Next.js page components
+│   ├── styles        # Global styles
+│   ├── utils         # Helper functions
+├── public            # Static assets
+├── package.json      # Project dependencies
+└── README.md         # Project documentation
+```
 
-### `npm run eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can deploy this project on platforms like:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Vercel
+- Netlify
+- Render
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to fork this repository, make changes, and submit a pull request.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is open-source and available under the [MIT License](LICENSE).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
